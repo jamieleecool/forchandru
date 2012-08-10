@@ -9,6 +9,8 @@ using BuildTest.Models;
 namespace BuildTest.Controllers
 {
 
+
+
     [Authorize]
     public class AccountController : Controller
     {
