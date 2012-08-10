@@ -21,6 +21,7 @@ namespace BuildTest.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+          
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -48,7 +49,7 @@ namespace BuildTest.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", "The user name or password provided is incorrect.");
+                    ModelState.AddModelError("", "new text");
                 }
             }
 
